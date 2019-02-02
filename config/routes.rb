@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+
   root 'static_pages#home'
 
   get  '/about',   to: 'static_pages#about'
@@ -7,5 +9,7 @@ Rails.application.routes.draw do
 
   get "/list",        to: 'static_pages#list'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get "/description", to: 'static_pages#description'
+
+  get "/check", to: 'users#new'
 end
