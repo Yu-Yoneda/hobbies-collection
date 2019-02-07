@@ -1,0 +1,61 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="result">
+      <table class="table">
+        <tr>
+          <td>
+            <h2>あなたの興味がある分野は</h2>
+            <h2>
+              <%= @value_add1[:word1] %>
+              <%= @value_add2[:word2] %>
+              <%= @value_add3[:word3] %>
+            </h2>
+            <h2>です</h2>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<div class="result">
+  <p>こちらは具体的なあなたが興味を持っている分野です。</p>
+</div>
+ <div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <table class="table">
+
+      <tr>
+        <td>R</td>
+        <td><%= @value[:R] %></td>
+      </tr>
+
+      <tr>
+        <td>I</td>
+        <td><%= @value[:I] %></td>
+      </tr>
+
+      <tr>
+        <td>A</td>
+        <td><%= @value[:A] %></td>
+      </tr>
+
+      <tr>
+        <td>S</td>
+        <td><%=  @value[:S]  %></td>
+      </tr>
+
+      <tr>
+        <td>E</td>
+        <td><%=  @value[:E]  %></td>
+      </tr>
+
+      <tr>
+        <td>C</td>
+        <td><%=  @value[:C]  %></td>
+      </tr>
+
+    </table>
+  </div>
+  </div>

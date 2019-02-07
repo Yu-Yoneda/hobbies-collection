@@ -12,4 +12,7 @@ Rails.application.routes.draw do
   get "/description", to: 'static_pages#description'
 
   get "/check", to: 'users#new'
+
+  resources :users
+
 end

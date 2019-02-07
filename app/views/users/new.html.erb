@@ -1,3 +1,448 @@
-<% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
-<p>This will be a signup page for new users.</p>
+<div class="result">
+  <h2>！注意点！</h2>
+  <p>あなたが実際に質問内容の行動ができるかどうかやほかの人の意見などは考えないでください。</p>
+  <p>あなたにとって質問内容の行動が興味があるかないかだけで判断してください。</p>
+
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <%= form_for @user do |f| %>
+    <%= render 'shared/error_messages' %>
+    <table class="table">
+      <tr >
+        <th></th>
+        <th>興味がない</th>
+        <th>・</th>
+        <th>どちらでもない</th>
+        <th>・</th>
+        <th>興味がある</th>
+      </tr>
+
+
+      <tr>
+        <label>
+          <td>1．機械や道具を使ってものを作る</td>
+          <td><%= f.radio_button :r1, 1, class: 'form-control' %></td>
+          <td><%= f.radio_button :r1, 2, class: 'form-control' %></td>
+          <td><%= f.radio_button :r1, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :r1, 4, class: 'form-control' %></td>
+          <td><%= f.radio_button :r1, 5, class: 'form-control' %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>2．歴史上の人物や建築物を調べる</td>
+          <td><%= f.radio_button :i1, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i1, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i1, 3, class: 'form-control'  , checked: "checked" %></td>
+          <td><%= f.radio_button :i1, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i1, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>3．美術館や映画館に行く</td>
+          <td><%= f.radio_button :a1, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a1, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a1, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :a1, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a1, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>4．ボランティア活動に参加する</td>
+          <td><%= f.radio_button :s1, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s1, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s1, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :s1, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s1, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>5．ビジネス系の雑誌や記事を読む</td>
+          <td><%= f.radio_button :e1, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e1, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e1, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :e1, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e1, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>6．コレクションを集める</td>
+          <td><%= f.radio_button :c1, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c1, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c1, 3, class: 'form-control' , checked: "checked"  %></td>
+          <td><%= f.radio_button :c1, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c1, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+
+
+
+      <tr>
+        <label>
+          <td>7．体を鍛えたり、スポーツをする</td>
+          <td><%= f.radio_button :r2, 1, class: 'form-control' %></td>
+          <td><%= f.radio_button :r2, 2, class: 'form-control' %></td>
+          <td><%= f.radio_button :r2, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :r2, 4, class: 'form-control' %></td>
+          <td><%= f.radio_button :r2, 5, class: 'form-control' %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>8．クロスワードやジグソーパズルを解く</td>
+          <td><%= f.radio_button :i2, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i2, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i2, 3, class: 'form-control'  , checked: "checked" %></td>
+          <td><%= f.radio_button :i2, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i2, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>9．演劇やミュージカルで演技をする</td>
+          <td><%= f.radio_button :a2, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a2, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a2, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :a2, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a2, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>10．子供の世話をする</td>
+          <td><%= f.radio_button :s2, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s2, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s2, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :s2, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s2, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>11．フリーマーケットで商品を売る</td>
+          <td><%= f.radio_button :e2, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e2, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e2, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :e2, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e2, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>12．スポーツや好きなことの記録をつける</td>
+          <td><%= f.radio_button :c2, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c2, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c2, 3, class: 'form-control' , checked: "checked"  %></td>
+          <td><%= f.radio_button :c2, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c2, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+
+
+
+      <tr>
+        <label>
+          <td>13．動物の世話やトレーニングをする</td>
+          <td><%= f.radio_button :r3, 1, class: 'form-control' %></td>
+          <td><%= f.radio_button :r3, 2, class: 'form-control' %></td>
+          <td><%= f.radio_button :r3, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :r3, 4, class: 'form-control' %></td>
+          <td><%= f.radio_button :r3, 5, class: 'form-control' %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>14．社会や経済の仕組みを調べる</td>
+          <td><%= f.radio_button :i3, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i3, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i3, 3, class: 'form-control'  , checked: "checked" %></td>
+          <td><%= f.radio_button :i3, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i3, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>15．絵や漫画などのビジュアルアートを製作する</td>
+          <td><%= f.radio_button :a3, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a3, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a3, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :a3, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a3, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>16．ほかの人に自分の得意なことやスキルを教えてあげる</td>
+          <td><%= f.radio_button :s3, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s3, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s3, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :s3, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s3, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>17．イベントの企画をする</td>
+          <td><%= f.radio_button :e3, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e3, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e3, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :e3, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e3, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>18．記念品を集める</td>
+          <td><%= f.radio_button :c3, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c3, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c3, 3, class: 'form-control' , checked: "checked"  %></td>
+          <td><%= f.radio_button :c3, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c3, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+
+
+
+      <tr>
+        <label>
+          <td>19．壊れた家電や機械を修理する</td>
+          <td><%= f.radio_button :r4, 1, class: 'form-control' %></td>
+          <td><%= f.radio_button :r4, 2, class: 'form-control' %></td>
+          <td><%= f.radio_button :r4, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :r4, 4, class: 'form-control' %></td>
+          <td><%= f.radio_button :r4, 5, class: 'form-control' %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>20．科学雑誌や技術雑誌を読む</td>
+          <td><%= f.radio_button :i4, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i4, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i4, 3, class: 'form-control'  , checked: "checked" %></td>
+          <td><%= f.radio_button :i4, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i4, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>21．楽器を演奏したり、作曲をする</td>
+          <td><%= f.radio_button :a4, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a4, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a4, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :a4, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a4, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>22．病気や怪我で困っている人を助けてあげる</td>
+          <td><%= f.radio_button :s4, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s4, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s4, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :s4, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s4, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>23．スポーツチームのリーダーをする</td>
+          <td><%= f.radio_button :e4, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e4, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e4, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :e4, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e4, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>24．自分の家系図を作る</td>
+          <td><%= f.radio_button :c4, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c4, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c4, 3, class: 'form-control' , checked: "checked"  %></td>
+          <td><%= f.radio_button :c4, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c4, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+
+
+
+      <tr>
+        <label>
+          <td>25．自動車や船などの乗り物を運転する</td>
+          <td><%= f.radio_button :r5, 1, class: 'form-control' %></td>
+          <td><%= f.radio_button :r5, 2, class: 'form-control' %></td>
+          <td><%= f.radio_button :r5, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :r5, 4, class: 'form-control' %></td>
+          <td><%= f.radio_button :r5, 5, class: 'form-control' %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>26．動物や植物の生態を調べる</td>
+          <td><%= f.radio_button :i5, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i5, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i5, 3, class: 'form-control'  , checked: "checked" %></td>
+          <td><%= f.radio_button :i5, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i5, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>27．ライトノベルや小説を書く</td>
+          <td><%= f.radio_button :a5, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a5, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a5, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :a5, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a5, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>28．お年寄りの手助けをする</td>
+          <td><%= f.radio_button :s5, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s5, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s5, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :s5, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s5, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>29．大勢の人の前で話をする</td>
+          <td><%= f.radio_button :e5, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e5, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e5, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :e5, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e5, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>30．カードゲームで遊ぶ</td>
+          <td><%= f.radio_button :c5, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c5, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c5, 3, class: 'form-control' , checked: "checked"  %></td>
+          <td><%= f.radio_button :c5, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c5, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+
+
+
+      <tr>
+        <label>
+          <td>31．ガーデニングや植物を育てる</td>
+          <td><%= f.radio_button :r6, 1, class: 'form-control' %></td>
+          <td><%= f.radio_button :r6, 2, class: 'form-control' %></td>
+          <td><%= f.radio_button :r6, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :r6, 4, class: 'form-control' %></td>
+          <td><%= f.radio_button :r6, 5, class: 'form-control' %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>32．ボードゲームやテレビゲームをする</td>
+          <td><%= f.radio_button :i6, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i6, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i6, 3, class: 'form-control'  , checked: "checked" %></td>
+          <td><%= f.radio_button :i6, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :i6, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>33．写真を撮る</td>
+          <td><%= f.radio_button :a6, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a6, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a6, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :a6, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :a6, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>34．好きなスポーツチームの応援に行く</td>
+          <td><%= f.radio_button :s6, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s6, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s6, 3, class: 'form-control'  , checked: "checked"  %></td>
+          <td><%= f.radio_button :s6, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :s6, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr>
+        <label>
+          <td>35．人と議論をする</td>
+          <td><%= f.radio_button :e6, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e6, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e6, 3, class: 'form-control' , checked: "checked" %></td>
+          <td><%= f.radio_button :e6, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :e6, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+      <tr class="tr">
+        <label>
+          <td>36．税金について勉強する</td>
+          <td><%= f.radio_button :c6, 1, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c6, 2, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c6, 3, class: 'form-control' , checked: "checked"  %></td>
+          <td><%= f.radio_button :c6, 4, class: 'form-control'  %></td>
+          <td><%= f.radio_button :c6, 5, class: 'form-control'  %></td>
+        </label>
+      </tr>
+
+
+    </table>
+
+<div class="result">
+  <%= f.submit "結果発表" ,  class: "btn btn-primary" %>
+
+</div>
+    <% end %>
+  </div>
+</div>
