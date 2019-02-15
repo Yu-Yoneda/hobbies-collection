@@ -11,14 +11,16 @@ class UsersController < ApplicationController
                     E: @user.e1 + @user.e2 + @user.e3 + @user.e4 + @user.e5 + @user.e6,
                     C: @user.c1 + @user.c2 + @user.c3 + @user.c4 + @user.c5 + @user.c6 }
 
-    @value_add1 = {first: @value.values.max, word1: @value.key(@value.values.max)}
-    @value.delete(@value.key(@value.values.max))
+    @value_add1 = {first: @value.sort_by{ | k, v | v }.reverse[0][0] ,
+    word1: @value.sort_by{ | k, v | v }.reverse[0][1]}
 
-    @value_add2 = {second: @value.values.max, word2: @value.key(@value.values.max)}
-    @value.delete(@value.key(@value.values.max))
+    @value_add2 = {second: @value.sort_by{ | k, v | v }.reverse[1][0],
+    word2: @value.sort_by{ | k, v | v }.reverse[1][1]}
 
-    @value_add3 = {thrid: @value.values.max, word3: @value.key(@value.values.max)}
-    @value.delete(@value.key(@value.values.max))
+    @value_add3 = {third: @value.sort_by{ | k, v | v }.reverse[2][0],
+     word3: @value.sort_by{ | k, v | v }.reverse[2][1]}
+
+     # User.find(params[:id]).destroy
 
   end
 

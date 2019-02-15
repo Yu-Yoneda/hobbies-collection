@@ -33,6 +33,40 @@ textarea {
   }
 }
 
+.centerpoint {
+  padding-right: 30px;
+}
+
+.riasec_list {
+  padding-top: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.sports {
+  background: #337ab7;
+  margin: 0 0 0 0;
+  color: #FFFFCC;
+  font-weight: bolder;
+}
+
+.titl {
+  margin: 0 0 0 0;
+  font-weight: bold;
+}
+
+.sports_background {
+  background-color: #DDDDDD;
+}
+
+
+.border {
+  margin-top: 30px;
+  border-top: 1px solid #eaeaea;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,10 +94,14 @@ p {
   line-height: 1.7em;
 }
 
-.result {
-  text-align: center;
+.tr {
+  background-color: #dcdcdc;
 }
 
+.hobby_page {
+margin: 0px 150px 0px 150px;
+padding: 10px;
+}
 
 /* header */
 

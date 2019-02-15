@@ -1,0 +1,49 @@
+<h2>芸術・ダンスの趣味一覧</h2>
+
+<p>
+  絵や言葉を使った芸術は見る者の心を豊かにします。
+</p>
+
+<p>
+  ダンスも同様に観客を興奮させるものもあれば、感動させるものもあります。
+</p>
+
+<p>
+  見ているだけでも楽しいものですが，実際にダンスを踊ったり、作品を作ることができたなら、もっと楽しい経験ができるでしょう。
+</p>
+
+<p>
+そんな観客とダンサー・製作者にとっても素敵な体験になる芸術・ダンスの趣味一覧です。
+</p>
+
+<div class="container">
+
+  <nav class="border">
+    <ul class="nav navbar-nav">
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_drawing_path  do %>
+        <%= image_tag "drawing1.jpg", size: "219x185" %>
+      <p class="titl">
+        デッサン
+      </p>
+      <p class="titl">
+        AR
+      </p>
+      </li>
+<% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_writing_path  do %>
+        <%= image_tag "writing1.jpg", size: "219x185" %>
+      <p class="titl">
+        小説執筆
+      </p>
+      <p class="titl">
+        AIE
+      </p>
+      </li>
+<% end %>
+    </ul>
+  </nav>
+</div>

@@ -1,0 +1,49 @@
+<h2>アウトドアの趣味一覧</h2>
+
+<p>
+  緑の自然に囲まれていると、さっぱりとした気持ちになりますよね。
+</p>
+
+<p>
+  魚釣りやキャンプなどアウトドアには様々な楽しみ方があります。
+</p>
+
+<p>
+  そんな多種多様な楽しみ方があるアウトドアの趣味一覧です。
+</p>
+
+
+
+<div class="container">
+
+  <nav class="border">
+    <ul class="nav navbar-nav">
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_sea_fishing_path  do %>
+        <%= image_tag "sea_fishing1.jpg", size: "219x185" %>
+      <p class="titl">
+        海釣り
+      </p>
+      <p class="titl">
+        R
+      </p>
+      </li>
+<% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_astronomy_path  do %>
+        <%= image_tag "astronomy2.jpg", size: "219x185" %>
+      <p class="titl">
+        天体観測
+      </p>
+      <p class="titl">
+        IAR
+      </p>
+      </li>
+<% end %>
+
+
+    </ul>
+  </nav>
+</div>
