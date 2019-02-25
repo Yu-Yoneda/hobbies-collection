@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'hobby_pages/jigsaw_puzzle'
+
   get 'hobby_pages/beach_combing'
 
   get 'hobby_pages/road_bike'
@@ -312,8 +314,6 @@ Rails.application.routes.draw do
   get "/description", to: 'static_pages#description'
 
   get "/personality_type", to: 'static_pages#personality_type'
-
-
 
   get "/check", to: 'users#new'
 

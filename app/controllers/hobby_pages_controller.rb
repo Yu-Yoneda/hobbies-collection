@@ -1,4 +1,4 @@
 class HobbyPagesController < ApplicationController
-  def beach_combing
+  def jigsaw_puzzle
   end
 end
