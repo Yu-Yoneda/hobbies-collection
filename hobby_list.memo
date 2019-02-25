@@ -1,0 +1,263 @@
+例　興味タイプがRAIの場合
+ベストの時  {
+RとA、Iのどちらかもしくは両方入っている
+}
+
+グッドの時 {
+AとIが入っているもしくはRが先頭にある
+}
+
+マッチの時 {
+Rが先頭以外のどこかにある
+}
+
+基本的にONETを参考にする。
+ONETになかったら、STRONG INTEREST INVENTRYを使って自分で考える。
+
+<div class="container">
+  <nav class="border">
+      <ul class="nav navbar-nav">
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_jam_making_path  do %>
+        <%= image_tag "jam2.jpg", size: "219x185" %>
+      <p class="titl">
+        ジャム作り
+      </p>
+      <p class="titl">
+        ARC
+      </p>
+      <p class="titl">
+        ！マッチ！
+      </p>
+      </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_stamp_collecting_path  do %>
+      <%= image_tag "stamp_collecting1.jpg", size: "219x185" %>
+    <p class="titl">
+      切手収集
+    </p>
+    <p class="titl">
+      C
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_othello_path  do %>
+      <%= image_tag "othello2.jpg", size: "219x185" %>
+    <p class="titl">
+      オセロ
+    </p>
+    <p class="titl">
+      I
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_game_production_path  do %>
+      <%= image_tag "game_production1.jpg", size: "219x185" %>
+    <p class="titl">
+      ゲーム制作
+    </p>
+    <p class="titl">
+      IAR
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_drawing_path  do %>
+      <%= image_tag "drawing1.jpg", size: "219x185" %>
+    <p class="titl">
+      デッサン
+    </p>
+    <p class="titl">
+      AR
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_writing_path  do %>
+      <%= image_tag "writing1.jpg", size: "219x185" %>
+    <p class="titl">
+      小説執筆
+    </p>
+    <p class="titl">
+      AI
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_meditation_path  do %>
+      <%= image_tag "meditation3.jpg", size: "219x185" %>
+    <p class="titl">
+      瞑想
+    </p>
+    <p class="titl">
+      I
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_aquarium_visiting_path  do %>
+      <%= image_tag "aquarium_visiting1.jpg", size: "219x185" %>
+    <p class="titl">
+      水族館めぐり
+    </p>
+    <p class="titl">
+      RI
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_classical_misic_concert_path  do %>
+      <%= image_tag "classical_misic_concert3.jpg", size: "219x185" %>
+    <p class="titl">
+      クラシック演奏会
+    </p>
+    <p class="titl">
+      AS
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_blood_donation_path  do %>
+      <%= image_tag "blood_donation4.jpg", size: "219x185" %>
+    <p class="titl">
+      献血
+    </p>
+    <p class="titl">
+      S
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_sea_fishing_path  do %>
+      <%= image_tag "sea_fishing1.jpg", size: "219x185" %>
+    <p class="titl">
+      海釣り
+    </p>
+    <p class="titl">
+      R
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_astronomy_path  do %>
+      <%= image_tag "astronomy2.jpg", size: "219x185" %>
+    <p class="titl">
+      天体観測
+    </p>
+    <p class="titl">
+      IAR
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_road_bike_path  do %>
+      <%= image_tag "road_bike1.jpg", size: "219x185" %>
+    <p class="titl">
+      ロードバイク
+    </p>
+    <p class="titl">
+      RE
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_archery_path  do %>
+      <%= image_tag "archery2.jpg", size: "219x185" %>
+    <p class="titl">
+      アーチェリー
+    </p>
+    <p class="titl">
+      RC
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_blog_path  do %>
+      <%= image_tag "blog1.jpg", size: "219x185" %>
+    <p class="titl">
+      ブログ
+    </p>
+    <p class="titl">
+      AI
+    </p>
+    <p class="titl">
+      ！マッチ！
+    </p>
+    </li>
+  <% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_beach_combing_path  do %>
+        <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+      <p class="titl">
+        ビーチコーミング
+      </p>
+      <p class="titl">
+        CR
+      </p>
+      <p class="titl">
+        ！マッチ！
+      </p>
+      </li>
+      <% end %>
+
+        </ul>
+    </nav>
+</div>

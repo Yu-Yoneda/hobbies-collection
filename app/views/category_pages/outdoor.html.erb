@@ -1,4 +1,16 @@
-<h2>アウトドアの趣味一覧</h2>
+<% provide(:title, "アウトドアの趣味一覧") %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>アウトドアの趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
 
 <p>
   緑の自然に囲まれていると、さっぱりとした気持ちになりますよね。
@@ -11,10 +23,6 @@
 <p>
   そんな多種多様な楽しみ方があるアウトドアの趣味一覧です。
 </p>
-
-
-
-<div class="container">
 
   <nav class="border">
     <ul class="nav navbar-nav">
@@ -43,7 +51,32 @@
       </li>
 <% end %>
 
+      <li class="sports_background">
+        <%= link_to hobby_pages_road_bike_path  do %>
+        <%= image_tag "road_bike1.jpg", size: "219x185" %>
+      <p class="titl">
+        ロードバイク
+      </p>
+      <p class="titl">
+        RE
+      </p>
+      </li>
+<% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_beach_combing_path  do %>
+        <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+      <p class="titl">
+        ビーチコーミング
+      </p>
+      <p class="titl">
+        CR
+      </p>
+      </li>
+<% end %>
 
     </ul>
   </nav>
+</div>
+</div>
 </div>

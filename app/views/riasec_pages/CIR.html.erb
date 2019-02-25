@@ -1,2 +1,131 @@
-<h1>RiasecPages#CIR</h1>
-<p>Find me in app/views/riasec_pages/CIR.html.erb</p>
+<% provide(:title, "CIR") %>
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+<h3> あなたの興味タイプは</h3>
+<h3 class="riasec_page">CIR</h3>
+<h3> です</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h2>こちらにあなたにおすすめの趣味をまとめてありますので、ご覧ください！</h2>
+
+<div class="container">
+  <nav class="border">
+      <ul class="nav navbar-nav">
+
+        <li class="sports_background">
+          <%= link_to hobby_pages_archery_path  do %>
+          <%= image_tag "archery2.jpg", size: "219x185" %>
+        <p class="titl">
+          アーチェリー
+        </p>
+        <p class="titl">
+          RC
+        </p>
+        <p class="titl">
+          ！ベストマッチ！
+        </p>
+        </li>
+        <% end %>
+
+          <li class="sports_background">
+            <%= link_to hobby_pages_beach_combing_path  do %>
+            <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+          <p class="titl">
+            ビーチコーミング
+          </p>
+          <p class="titl">
+            CR
+          </p>
+          <p class="titl">
+            ！ベストマッチ！
+          </p>
+          </li>
+          <% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_jam_making_path  do %>
+        <%= image_tag "jam2.jpg", size: "219x185" %>
+      <p class="titl">
+        ジャム作り
+      </p>
+      <p class="titl">
+        ARC
+      </p>
+      <p class="titl">
+        ！ベストマッチ！
+      </p>
+      </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_stamp_collecting_path  do %>
+      <%= image_tag "stamp_collecting1.jpg", size: "219x185" %>
+    <p class="titl">
+      切手収集
+    </p>
+    <p class="titl">
+      C
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_game_production_path  do %>
+      <%= image_tag "game_production1.jpg", size: "219x185" %>
+    <p class="titl">
+      ゲーム制作
+    </p>
+    <p class="titl">
+      IAR
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_aquarium_visiting_path  do %>
+      <%= image_tag "aquarium_visiting1.jpg", size: "219x185" %>
+    <p class="titl">
+      水族館めぐり
+    </p>
+    <p class="titl">
+      RI
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_astronomy_path  do %>
+      <%= image_tag "astronomy2.jpg", size: "219x185" %>
+    <p class="titl">
+      天体観測
+    </p>
+    <p class="titl">
+      IAR
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+        </ul>
+    </nav>
+</div>
+</div>
+</div>
+</div>

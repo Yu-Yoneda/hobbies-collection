@@ -1,4 +1,16 @@
-<h2>コレクションの趣味一覧</h2>
+<% provide(:title, "コレクションの趣味一覧") %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>コレクションの趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
 
 <p>
 欲しいものが増えていく喜びやレアな一品に見つけた時の感動。
@@ -12,9 +24,6 @@
   ほしいものを手に入れる瞬間だけでなく、手に入れる過程も楽しめるコレクションの趣味一覧です。
 </p>
 
-
-<div class="container">
-
   <nav class="border">
     <ul class="nav navbar-nav">
 
@@ -25,12 +34,25 @@
         切手収集
       </p>
       <p class="titl">
-        CI
+        C
       </p>
       </li>
 <% end %>
 
+      <li class="sports_background">
+        <%= link_to hobby_pages_beach_combing_path  do %>
+        <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+      <p class="titl">
+        ビーチコーミング
+      </p>
+      <p class="titl">
+        CR
+      </p>
+      </li>
+<% end %>
 
     </ul>
   </nav>
+</div>
+</div>
 </div>

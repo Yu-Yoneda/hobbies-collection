@@ -1,2 +1,50 @@
-<h1>CategoryPages#game</h1>
-<p>Find me in app/views/category_pages/game.html.erb</p>
+<% provide(:title, 'ゲームの趣味一覧') %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>ゲームの趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<p>
+  パズルやゲームはとても頭を使います。
+</p>
+
+<p>
+そのため、高齢者のボケ防止などにも使われています。
+</p>
+
+<p>
+  一人で遊べるパズル・ゲームも多数ありますし、複数人で遊べるものも豊富です。
+</p>
+
+<p>
+  そんな楽しく・脳の健康にも良いゲームの趣味一覧です。
+</p>
+
+  <nav class="border">
+    <ul class="nav navbar-nav">
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_othello_path  do %>
+        <%= image_tag "othello2.jpg", size: "219x185" %>
+      <p class="titl">
+        オセロ
+      </p>
+      <p class="titl">
+        I
+      </p>
+      </li>
+<% end %>
+
+    </ul>
+  </nav>
+</div>
+</div>
+</div>

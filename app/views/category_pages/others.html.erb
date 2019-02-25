@@ -1,2 +1,46 @@
-<h1>CategoryPages#others</h1>
-<p>Find me in app/views/category_pages/others.html.erb</p>
+<% provide(:title, "その他の趣味一覧") %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>その他の趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<p>
+  人とは一風変わった趣味を持ちたいあなた！
+</p>
+
+<p>
+ほかの人とは違った趣味を持てば、みんなの注目を受けるかも！？
+</p>
+
+<p>
+  そんな一風変わった趣味であるその他の趣味一覧です。
+</p>
+
+  <nav class="border">
+    <ul class="nav navbar-nav">
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_blood_donation_path  do %>
+        <%= image_tag "blood_donation4.jpg", size: "219x185" %>
+      <p class="titl">
+        献血
+      </p>
+      <p class="titl">
+        S
+      </p>
+      </li>
+      <% end %>
+
+    </ul>
+  </nav>
+</div>
+</div>
+</div>

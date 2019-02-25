@@ -1,13 +1,8 @@
 require 'test_helper'
 
 class HobbyPagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get blog" do
-    get hobby_pages_blog_url
-    assert_response :success
-  end
-
-  test "should get aquarium_visiting" do
-    get hobby_pages_aquarium_visiting_url
+  test "should get beach_combing" do
+    get hobby_pages_beach_combing_url
     assert_response :success
   end
 

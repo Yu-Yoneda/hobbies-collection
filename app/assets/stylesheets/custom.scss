@@ -15,7 +15,7 @@ $gray-medium-light: #eaeaea;
 
 body {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 section {
@@ -31,10 +31,6 @@ textarea {
   h1 {
     margin-bottom: 10px;
   }
-}
-
-.centerpoint {
-  padding-right: 30px;
 }
 
 .riasec_list {
@@ -61,10 +57,18 @@ ul {
   background-color: #DDDDDD;
 }
 
-
 .border {
   margin-top: 30px;
-  border-top: 1px solid #eaeaea;
+  margin-left: 50px;
+}
+
+.pic_bottom {
+  margin: 20px 0 10px 0;
+}
+
+.panel-body {
+  // 趣味リストが変化してしまうので消してはダメ
+  padding: 10px;
 }
 
 /* typography */
@@ -86,12 +90,11 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
 }
 
 p {
   font-size: 1.1em;
-  line-height: 1.7em;
+  line-height: 1.8em;
 }
 
 .tr {
@@ -102,6 +105,7 @@ p {
 margin: 0px 150px 0px 150px;
 padding: 10px;
 }
+
 
 /* header */
 
@@ -144,14 +148,4 @@ footer {
       margin-left: 15px;
     }
   }
-}
-
-/* miscellaneous */
-
-.debug_dump {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;
 }

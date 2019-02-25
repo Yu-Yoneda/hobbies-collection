@@ -1,2 +1,41 @@
-<h1>RiasecPages#ESA</h1>
-<p>Find me in app/views/riasec_pages/ESA.html.erb</p>
+<% provide(:title, "ESA") %>
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+<h3> あなたの興味タイプは</h3>
+<h3 class="riasec_page">ESA</h3>
+<h3> です</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h2>こちらにあなたにおすすめの趣味をまとめてありますので、ご覧ください！</h2>
+
+<div class="container">
+  <nav class="border">
+      <ul class="nav navbar-nav">
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_classical_misic_concert_path  do %>
+      <%= image_tag "classical_misic_concert3.jpg", size: "219x185" %>
+    <p class="titl">
+      クラシック演奏会
+    </p>
+    <p class="titl">
+      AS
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+        </ul>
+    </nav>
+</div>
+</div>
+</div>
+</div>

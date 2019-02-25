@@ -1,2 +1,101 @@
-<h1>RiasecPages#CRE</h1>
-<p>Find me in app/views/riasec_pages/CRE.html.erb</p>
+<% provide(:title, "CRE") %>
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+<h3> あなたの興味タイプは</h3>
+<h3 class="riasec_page">CRE</h3>
+<h3> です</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h2>こちらにあなたにおすすめの趣味をまとめてありますので、ご覧ください！</h2>
+
+<div class="container">
+  <nav class="border">
+      <ul class="nav navbar-nav">
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_jam_making_path  do %>
+        <%= image_tag "jam2.jpg", size: "219x185" %>
+      <p class="titl">
+        ジャム作り
+      </p>
+      <p class="titl">
+        ARC
+      </p>
+      <p class="titl">
+        ！ベストマッチ！
+      </p>
+      </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_archery_path  do %>
+      <%= image_tag "archery2.jpg", size: "219x185" %>
+    <p class="titl">
+      アーチェリー
+    </p>
+    <p class="titl">
+      RC
+    </p>
+    <p class="titl">
+      ！ベストマッチ！
+    </p>
+    </li>
+    <% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_beach_combing_path  do %>
+        <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+      <p class="titl">
+        ビーチコーミング
+      </p>
+      <p class="titl">
+        CR
+      </p>
+      <p class="titl">
+        ！ベストマッチ！
+      </p>
+      </li>
+      <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_stamp_collecting_path  do %>
+      <%= image_tag "stamp_collecting1.jpg", size: "219x185" %>
+    <p class="titl">
+      切手収集
+    </p>
+    <p class="titl">
+      C
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+    <li class="sports_background">
+      <%= link_to hobby_pages_road_bike_path  do %>
+      <%= image_tag "road_bike1.jpg", size: "219x185" %>
+    <p class="titl">
+      ロードバイク
+    </p>
+    <p class="titl">
+      RE
+    </p>
+    <p class="titl">
+      ！グッドマッチ！
+    </p>
+    </li>
+    <% end %>
+
+        </ul>
+    </nav>
+</div>
+</div>
+</div>
+</div>

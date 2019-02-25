@@ -1,4 +1,16 @@
-<h2>旅行・お出かけの趣味一覧</h2>
+<% provide(:title, "旅行・お出かけの趣味一覧") %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>旅行・お出かけの趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
 
 <p>
   晴れた日は、家族や友達と一緒に思い切って遠くへ出かけてみませんか？。
@@ -16,10 +28,6 @@
   そんな経験ができる旅行・お出かけの趣味一覧です。
 </p>
 
-
-
-<div class="container">
-
   <nav class="border">
     <ul class="nav navbar-nav">
 
@@ -30,12 +38,25 @@
               水族館めぐり
             </p>
             <p class="titl">
-              IR
+              RI
             </p>
             </li>
       <% end %>
 
+      <li class="sports_background">
+        <%= link_to hobby_pages_classical_misic_concert_path  do %>
+        <%= image_tag "classical_misic_concert3.jpg", size: "219x185" %>
+      <p class="titl">
+        クラシック演奏会
+      </p>
+      <p class="titl">
+        AS
+      </p>
+      </li>
+      <% end %>
 
     </ul>
   </nav>
+</div>
+</div>
 </div>

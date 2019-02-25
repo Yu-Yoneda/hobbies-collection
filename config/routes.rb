@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'hobby_pages/beach_combing'
+
+  get 'hobby_pages/road_bike'
+
+  get 'hobby_pages/blood_donation'
+
+  get 'hobby_pages/classical_misic_concert'
+
+  get 'hobby_pages/game_production'
+
   get 'category_pages/sports'
 
   get 'category_pages/collection'

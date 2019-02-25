@@ -1,2 +1,53 @@
-<h1>CategoryPages#craft</h1>
-<p>Find me in app/views/category_pages/craft.html.erb</p>
+<% provide(:title, "クラフトの趣味一覧") %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+
+<h3>クラフトの趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<p>
+  ものを作る趣味の魅力は、なんといっても完成した時の達成感でしょう！
+</p>
+
+<p>
+  完成したものを飾って楽しんだり、プレゼントすると喜んでもらえるのもいいですね。
+</p>
+
+<p>
+腕が良ければ、作ったものが売れることも！？
+</p>
+
+<p>
+  そんな楽しさと実益の両方を追求できるクラフトの趣味の一覧です。
+</p>
+
+  <nav class="border">
+    <ul class="nav navbar-nav">
+
+<li class="sports_background">
+  <%= link_to hobby_pages_game_production_path  do %>
+  <%= image_tag "game_production1.jpg", size: "219x185" %>
+<p class="titl">
+  ゲーム制作
+</p>
+<p class="titl">
+  IAR
+</p>
+</li>
+<% end %>
+
+
+    </ul>
+  </nav>
+</div>
+
+</div>
+</div>

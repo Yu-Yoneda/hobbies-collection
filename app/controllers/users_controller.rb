@@ -4,12 +4,12 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     @value = {
-                    R: @user.r1 + @user.r2 + @user.r3 + @user.r4 + @user.r5 + @user.r6,
-                    I: @user.i1 + @user.i2 + @user.i3 + @user.i4 + @user.i4 + @user.i6,
-                    A: @user.a1 + @user.a2 + @user.a3 + @user.a4 + @user.a5 + @user.a6,
-                    S: @user.s1 + @user.s2 + @user.s3 + @user.s4 + @user.s5 + @user.s6,
-                    E: @user.e1 + @user.e2 + @user.e3 + @user.e4 + @user.e5 + @user.e6,
-                    C: @user.c1 + @user.c2 + @user.c3 + @user.c4 + @user.c5 + @user.c6 }
+                    現実的興味（Rタイプ）: @user.r1 + @user.r2 + @user.r3 + @user.r4 + @user.r5 + @user.r6,
+                    研究的興味（Iタイプ）: @user.i1 + @user.i2 + @user.i3 + @user.i4 + @user.i4 + @user.i6,
+                    芸術的興味（Aタイプ）: @user.a1 + @user.a2 + @user.a3 + @user.a4 + @user.a5 + @user.a6,
+                    社会的興味（Sタイプ）: @user.s1 + @user.s2 + @user.s3 + @user.s4 + @user.s5 + @user.s6,
+                    企業的興味（Eタイプ）: @user.e1 + @user.e2 + @user.e3 + @user.e4 + @user.e5 + @user.e6,
+                    慣習的興味（Cタイプ）: @user.c1 + @user.c2 + @user.c3 + @user.c4 + @user.c5 + @user.c6 }
 
     @value_add1 = {first: @value.sort_by{ | k, v | v }.reverse[0][0] ,
     word1: @value.sort_by{ | k, v | v }.reverse[0][1]}

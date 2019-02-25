@@ -1,4 +1,15 @@
-<h2>芸術・ダンスの趣味一覧</h2>
+<% provide(:title, "芸術・ダンスの趣味一覧") %>
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>芸術・ダンスの趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
 
 <p>
   絵や言葉を使った芸術は見る者の心を豊かにします。
@@ -15,8 +26,6 @@
 <p>
 そんな観客とダンサー・製作者にとっても素敵な体験になる芸術・ダンスの趣味一覧です。
 </p>
-
-<div class="container">
 
   <nav class="border">
     <ul class="nav navbar-nav">
@@ -40,10 +49,25 @@
         小説執筆
       </p>
       <p class="titl">
-        AIE
+        AI
       </p>
       </li>
 <% end %>
+
+<li class="sports_background">
+  <%= link_to hobby_pages_game_production_path  do %>
+  <%= image_tag "game_production1.jpg", size: "219x185" %>
+<p class="titl">
+  ゲーム制作
+</p>
+<p class="titl">
+  IAR
+</p>
+</li>
+<% end %>
+
     </ul>
   </nav>
+</div>
+</div>
 </div>

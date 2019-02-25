@@ -1,4 +1,16 @@
-<h2>お金の趣味一覧</h2>
+<% provide(:title, 'お金の趣味一覧') %>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-body">
+
+<h3>お金の趣味一覧</h3>
+
+</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
 
 <p>
   好きなことをしながら、ついでにお金も稼ぐことができたら良いですよね！
@@ -12,10 +24,6 @@
   そんな趣味と実益を兼ねたお金の趣味一覧です。
 </p>
 
-
-
-<div class="container">
-
   <nav class="border">
     <ul class="nav navbar-nav">
 
@@ -26,7 +34,7 @@
         ブログ
       </p>
       <p class="titl">
-        AIE
+        AI
       </p>
       </li>
 <% end %>
@@ -38,11 +46,25 @@
   小説執筆
 </p>
 <p class="titl">
-  AIE
+  AI
+</p>
+</li>
+<% end %>
+
+<li class="sports_background">
+  <%= link_to hobby_pages_game_production_path  do %>
+  <%= image_tag "game_production1.jpg", size: "219x185" %>
+<p class="titl">
+  ゲーム制作
+</p>
+<p class="titl">
+  IAR
 </p>
 </li>
 <% end %>
 
     </ul>
   </nav>
+</div>
+</div>
 </div>
