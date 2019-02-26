@@ -11,6 +11,15 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
+@media (min-width: 768px){
+  .navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+  }
+}
+
 /* universal */
 
 body {
@@ -57,11 +66,6 @@ ul {
   background-color: #DDDDDD;
 }
 
-.border {
-  margin-top: 30px;
-  margin-left: 50px;
-}
-
 .pic_bottom {
   margin: 20px 0 10px 0;
 }
@@ -93,19 +97,13 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.8em;
 }
 
 .tr {
   background-color: #dcdcdc;
 }
-
-.hobby_page {
-margin: 0px 150px 0px 150px;
-padding: 10px;
-}
-
 
 /* header */
 
@@ -124,11 +122,18 @@ padding: 10px;
   }
 }
 
+header {
+  ul {
+    font-size: 1.3em;
+  }
+}
+
 /* footer */
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
+  margin-bottom: 45px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
   a {

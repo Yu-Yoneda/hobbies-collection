@@ -1,6 +1,8 @@
 <% provide(:title, "アウトドアの趣味一覧") %>
-
 <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
 <div class="panel panel-default">
   <div class="panel-body">
 
@@ -24,9 +26,7 @@
   そんな多種多様な楽しみ方があるアウトドアの趣味一覧です。
 </p>
 
-  <nav class="border">
     <ul class="nav navbar-nav">
-
       <li class="sports_background">
         <%= link_to hobby_pages_sea_fishing_path  do %>
         <%= image_tag "sea_fishing1.jpg", size: "219x185" %>
@@ -76,7 +76,9 @@
 <% end %>
 
     </ul>
-  </nav>
+</div>
+</div>
+
 </div>
 </div>
 </div>

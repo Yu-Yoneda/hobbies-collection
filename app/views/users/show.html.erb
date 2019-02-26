@@ -1,11 +1,10 @@
 <% provide(:title, "結果発表") %>
 <div class="container">
+  <div class="row">
+    <div class="col-md-12">
 
 <div class="panel panel-default">
   <div class="panel-body">
-
-<div class="row">
-
 <div class="col-md-6 col-md-offset-3">
 
 <tr>
@@ -21,49 +20,45 @@
 </tr>
 
 </div>
-
-</div>
-
 </div>
 </div>
 
 <div class="panel panel-default">
   <div class="panel-body">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
 
 <p>こちらは具体的なあなたが興味を持っている分野です。</p>
 
-<div class="row">
-<div class="col-md-6 col-md-offset-3">
 <table class="table">
-
 <tr>
-<td>現実的興味（Rタイプ）</td>
-<td><%= @value[:現実的興味（Rタイプ）] %></td>
+<td><p>現実的興味（Rタイプ）</p></td>
+<td><p><%= @value[:現実的興味（Rタイプ）] %></p></td>
 </tr>
 
 <tr>
-<td>研究的興味（Iタイプ）</td>
-<td><%= @value[:研究的興味（Iタイプ）] %></td>
+<td><p>研究的興味（Iタイプ）</p></td>
+<td><p><%= @value[:研究的興味（Iタイプ）] %></p></td>
 </tr>
 
 <tr>
-<td>芸術的興味（Aタイプ）</td>
-<td><%= @value[:芸術的興味（Aタイプ）] %></td>
+<td><p>芸術的興味（Aタイプ）</p></td>
+<td><p><%= @value[:芸術的興味（Aタイプ）] %></p></td>
 </tr>
 
 <tr>
-<td>社会的興味（Sタイプ）</td>
-<td><%=  @value[:社会的興味（Sタイプ）]  %></td>
+<td><p>社会的興味（Sタイプ）</p></td>
+<td><p><%=  @value[:社会的興味（Sタイプ）]  %></p></td>
 </tr>
 
 <tr>
-<td>企業的興味（Eタイプ）</td>
-<td><%=  @value[:企業的興味（Eタイプ）]  %></td>
+<td><p>企業的興味（Eタイプ）</p></td>
+<td><p><%=  @value[:企業的興味（Eタイプ）]  %></p></td>
 </tr>
 
 <tr>
-<td>慣習的興味（Cタイプ）</td>
-<td><%=  @value[:慣習的興味（Cタイプ）]  %></td>
+<td><p>慣習的興味（Cタイプ）</p></td>
+<td><p><%=  @value[:慣習的興味（Cタイプ）]  %></p></td>
 </tr>
 
 </table>
@@ -73,6 +68,8 @@
 </div>
 </div>
 
-  <%= render 'layouts/personality_list' %>
-
 </div>
+</div>
+</div>
+
+  <%= render 'layouts/personality_list' %>

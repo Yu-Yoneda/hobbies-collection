@@ -1,6 +1,9 @@
 <% provide(:title, "趣味診断") %>
-<div class="result">
+
   <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+
     <div class="panel panel-default">
       <div class="panel-body">
 
@@ -15,11 +18,7 @@
   <div class="panel panel-default">
     <div class="panel-body">
 
-
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
       <%= form_for @user do |f| %>
-      <%= render 'shared/error_messages' %>
       <table class="table table-striped">
         <tr>
           <th></th>
@@ -445,16 +444,13 @@
 
       </table>
 
-  <div class="result">
     <%= f.submit "結果発表" ,  class: "btn btn-primary btn-lg" %>
-
-  </div>
       <% end %>
+
     </div>
   </div>
 
   </div>
 </div>
 
-  </div>
   </div>
