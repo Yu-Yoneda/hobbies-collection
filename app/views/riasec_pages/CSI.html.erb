@@ -1,13 +1,22 @@
-<h2> あなたの興味タイプは</h2>
-<h2 class="riasec_page">CSI</h2>
-<h2> です</h2>
-
-<p>こちらにあなたにおすすめの趣味をまとめてありますので、ご覧ください！</p>
-
+<% provide(:title, "CSI") %>
 <div class="container">
-  <nav class="border">
-      <ul class="nav navbar-nav">
+  <div class="row">
+    <div class="col-md-12">
+<div class="panel panel-default">
+<div class="panel-body">
+<h3> あなたの興味タイプは</h3>
+<h3>CSI</h3>
+<h3> です</h3>
 
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-body">
+
+<h2>こちらにあなたにおすすめの趣味をまとめてありますので、ご覧ください！</h2>
+
+      <ul class="nav navbar-nav">
         <li class="sports_background">
           <%= link_to hobby_pages_stamp_collecting_path  do %>
           <%= image_tag "stamp_collecting1.jpg", size: "219x185" %>
@@ -70,4 +79,8 @@
 
         </ul>
     </nav>
+</div>
+</div>
+</div>
+</div>
 </div>
