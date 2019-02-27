@@ -31,9 +31,16 @@ $gray-medium-light: #eaeaea;
 
 /* universal */
 
+html {
+  height: 100vh;
+  overflow: scroll;
+}
+
 body {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 5%;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 section {
@@ -84,6 +91,15 @@ ul {
   padding: 10px;
 }
 
+@media only screen and (min-width: 768px) {
+  .navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+  }
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,7 +123,7 @@ h2 {
 
 p {
   font-size: 1.2em;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 .tr {
@@ -132,14 +148,18 @@ p {
 }
 
 header {
+    width: 100%;
+    overflow-y: scroll;
   ul {
     font-size: 1.3em;
   }
-}
+  }
 
 /* footer */
 
 footer {
+    width: 100%;
+    overflow-y: scroll;
   margin-top: 45px;
   padding-top: 5px;
   margin-bottom: 45px;
