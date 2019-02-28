@@ -1,31 +1,30 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <%= link_to "趣味の探し方", root_path , id: "logo" %>
+        </div>
+      </div>
+      
       <div class="col-md-6">
-
-  <%= link_to "趣味の探し方", root_path , id: "logo" %>
-
-  </div>
-
-  <div class="col-md-6">
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <%= link_to "趣味まとめ", list_path %>
-
-        </li>
-        <li>
-          <%= link_to "趣味診断", description_path %>
-        </li>
-        <li>
-          <%= link_to "興味タイプリスト",  personality_type_path  %>
-        </li>
-
-      </ul>
-    </nav>
-
-  </div>
-
-  </div>
+        <nav>
+          <ul id="navbar" class="nav navbar-nav navbar-right navbar-collapse collapse">
+            <li><%= link_to "趣味まとめ", list_path %></li>
+            <li><%= link_to "趣味診断", description_path %></li>
+            <li><%= link_to "興味タイプリスト",  personality_type_path  %></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </div>
   </div>
 </header>

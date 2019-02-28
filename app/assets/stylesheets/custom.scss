@@ -17,15 +17,35 @@ $gray-medium-light: #eaeaea;
     display: table;
     table-layout: fixed;
     float: none;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
   }
 }
+}
 
-.navbar-nav {
-  text-align: center;
-  > li {
+@media (max-width: 768px) {
+  navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+    text-align: center;
+  }
+  > li{
     float: none;
     display: inline-block;
   }
+  body{
+
+  }
+  header {
+    width: 400%;
+  ul {
+    font-size: 1.3em;
+  }
+}
 }
 
 /* universal */
@@ -36,9 +56,8 @@ html {
 
 body {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 8%;
     width: 100%;
-    overflow-y: scroll;
 }
 
 section {
