@@ -1,14 +1,11 @@
 <% provide(:title, "ASE") %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
 <h3> あなたの興味タイプは</h3>
 <h3>ASE</h3>
 <h3> です</h3>
-
-</div>
 </div>
 
 <div class="panel panel-default">
@@ -20,7 +17,7 @@
 
         <li class="sports_background">
           <%= link_to hobby_pages_classical_misic_concert_path  do %>
-          <%= image_tag "classical_misic_concert3.jpg", size: "219x185" %>
+          <%= image_tag "classical_misic_concert3.jpg", :class => "picture_size" %>
         <p class="titl">
           クラシック演奏会
         </p>
@@ -35,7 +32,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_drawing_path  do %>
-      <%= image_tag "drawing1.jpg", size: "219x185" %>
+      <%= image_tag "drawing1.jpg", :class => "picture_size" %>
     <p class="titl">
       デッサン
     </p>
@@ -50,7 +47,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_writing_path  do %>
-      <%= image_tag "writing1.jpg", size: "219x185" %>
+      <%= image_tag "writing1.jpg", :class => "picture_size" %>
     <p class="titl">
       小説執筆
     </p>
@@ -65,7 +62,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_blog_path  do %>
-      <%= image_tag "blog1.jpg", size: "219x185" %>
+      <%= image_tag "blog1.jpg", :class => "picture_size" %>
     <p class="titl">
       ブログ
     </p>

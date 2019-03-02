@@ -1,14 +1,11 @@
 <% provide(:title, "SAR") %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
 <h3> あなたの興味タイプは</h3>
-<h3 class="riasec_page">SAR</h3>
+<h3>SAR</h3>
 <h3> です</h3>
-
-</div>
 </div>
 
 <div class="panel panel-default">
@@ -20,7 +17,7 @@
 
         <li class="sports_background">
           <%= link_to hobby_pages_classical_misic_concert_path  do %>
-          <%= image_tag "classical_misic_concert3.jpg", size: "219x185" %>
+          <%= image_tag "classical_misic_concert3.jpg", :class => "picture_size" %>
         <p class="titl">
           クラシック演奏会
         </p>
@@ -35,7 +32,7 @@
 
       <li class="sports_background">
         <%= link_to hobby_pages_jam_making_path  do %>
-        <%= image_tag "jam2.jpg", size: "219x185" %>
+        <%= image_tag "jam2.jpg", :class => "picture_size" %>
       <p class="titl">
         ジャム作り
       </p>
@@ -50,7 +47,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_game_production_path  do %>
-      <%= image_tag "game_production1.jpg", size: "219x185" %>
+      <%= image_tag "game_production1.jpg", :class => "picture_size" %>
     <p class="titl">
       ゲーム制作
     </p>
@@ -65,7 +62,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_drawing_path  do %>
-      <%= image_tag "drawing1.jpg", size: "219x185" %>
+      <%= image_tag "drawing1.jpg", :class => "picture_size" %>
     <p class="titl">
       デッサン
     </p>
@@ -80,7 +77,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_blood_donation_path  do %>
-      <%= image_tag "blood_donation4.jpg", size: "219x185" %>
+      <%= image_tag "blood_donation4.jpg", :class => "picture_size" %>
     <p class="titl">
       献血
     </p>
@@ -95,7 +92,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_astronomy_path  do %>
-      <%= image_tag "astronomy2.jpg", size: "219x185" %>
+      <%= image_tag "astronomy2.jpg", :class => "picture_size" %>
     <p class="titl">
       天体観測
     </p>

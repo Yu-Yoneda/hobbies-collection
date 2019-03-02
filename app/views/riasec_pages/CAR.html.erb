@@ -1,14 +1,11 @@
 <% provide(:title, "CEA") %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
 <h3> あなたの興味タイプは</h3>
 <h3>CEA</h3>
 <h3> です</h3>
-
-</div>
 </div>
 
 <div class="panel panel-default">
@@ -18,9 +15,9 @@
 
       <ul class="nav navbar-nav">
 
-        <li class="sports_background">
+        <li class="sports_background col-md-4 col-xs-6">
           <%= link_to hobby_pages_archery_path  do %>
-          <%= image_tag "archery2.jpg", size: "219x185" %>
+          <%= image_tag "archery2.jpg", :class => "picture_size" %>
         <p class="titl">
           アーチェリー
         </p>
@@ -33,9 +30,9 @@
         </li>
         <% end %>
 
-          <li class="sports_background">
+          <li class="sports_background col-md-4 col-xs-6">
             <%= link_to hobby_pages_beach_combing_path  do %>
-            <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+            <%= image_tag "beach_combing2.jpg", :class => "picture_size" %>
           <p class="titl">
             ビーチコーミング
           </p>
@@ -48,9 +45,9 @@
           </li>
           <% end %>
 
-      <li class="sports_background">
+      <li class="sports_background col-md-4 col-xs-6">
         <%= link_to hobby_pages_jam_making_path  do %>
-        <%= image_tag "jam2.jpg", size: "219x185" %>
+        <%= image_tag "jam2.jpg", :class => "picture_size" %>
       <p class="titl">
         ジャム作り
       </p>
@@ -63,9 +60,9 @@
       </li>
     <% end %>
 
-    <li class="sports_background">
+    <li class="sports_background col-md-4 col-xs-6">
       <%= link_to hobby_pages_stamp_collecting_path  do %>
-      <%= image_tag "stamp_collecting1.jpg", size: "219x185" %>
+      <%= image_tag "stamp_collecting1.jpg", :class => "picture_size" %>
     <p class="titl">
       切手収集
     </p>
@@ -78,9 +75,9 @@
     </li>
     <% end %>
 
-    <li class="sports_background">
+    <li class="sports_background col-md-4 col-xs-6">
       <%= link_to hobby_pages_game_production_path  do %>
-      <%= image_tag "game_production1.jpg", size: "219x185" %>
+      <%= image_tag "game_production1.jpg", :class => "picture_size" %>
     <p class="titl">
       ゲーム制作
     </p>
@@ -93,9 +90,9 @@
     </li>
     <% end %>
 
-    <li class="sports_background">
+    <li class="sports_background col-md-4 col-xs-6">
       <%= link_to hobby_pages_drawing_path  do %>
-      <%= image_tag "drawing1.jpg", size: "219x185" %>
+      <%= image_tag "drawing1.jpg", :class => "picture_size" %>
     <p class="titl">
       デッサン
     </p>
@@ -108,9 +105,9 @@
     </li>
     <% end %>
 
-    <li class="sports_background">
+    <li class="sports_background col-md-4 col-xs-6">
       <%= link_to hobby_pages_astronomy_path  do %>
-      <%= image_tag "astronomy2.jpg", size: "219x185" %>
+      <%= image_tag "astronomy2.jpg", :class => "picture_size" %>
     <p class="titl">
       天体観測
     </p>

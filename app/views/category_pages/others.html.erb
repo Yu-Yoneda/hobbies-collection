@@ -1,14 +1,9 @@
 <% provide(:title, "その他の趣味一覧") %>
-
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
-
 <h3>その他の趣味一覧</h3>
-
-</div>
 </div>
 
 <div class="panel panel-default">
@@ -30,7 +25,7 @@
 
       <li class="sports_background">
         <%= link_to hobby_pages_blood_donation_path  do %>
-        <%= image_tag "blood_donation4.jpg", size: "219x185" %>
+        <%= image_tag "blood_donation4.jpg", :class => "picture_size"  %>
       <p class="titl">
         献血
       </p>

@@ -1,15 +1,11 @@
 <% provide(:title, "SIC") %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
-
 <h3> あなたの興味タイプは</h3>
-<h3 class="riasec_page">SIC</h3>
+<h3>SIC</h3>
 <h3> です</h3>
-
-</div>
 </div>
 
 <div class="panel panel-default">
@@ -21,7 +17,7 @@
 
         <li class="sports_background">
           <%= link_to hobby_pages_blood_donation_path  do %>
-          <%= image_tag "blood_donation4.jpg", size: "219x185" %>
+          <%= image_tag "blood_donation4.jpg", :class => "picture_size" %>
         <p class="titl">
           献血
         </p>
@@ -36,7 +32,7 @@
 
     <li class="sports_background">
       <%= link_to hobby_pages_classical_misic_concert_path  do %>
-      <%= image_tag "classical_misic_concert3.jpg", size: "219x185" %>
+      <%= image_tag "classical_misic_concert3.jpg", :class => "picture_size" %>
     <p class="titl">
       クラシック演奏会
     </p>

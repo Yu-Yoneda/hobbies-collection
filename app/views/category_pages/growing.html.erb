@@ -1,22 +1,13 @@
 <% provide(:title, '動物・植物の趣味一覧') %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
-
 <h3>動物・植物の趣味一覧</h3>
-
 </div>
-</div>
-
-
 <div class="panel panel-default">
   <div class="panel-body">
-
-<p>
-かわいい動物や植物に囲まれていると、とても癒されますよね！
-</p>
+<p>かわいい動物や植物に囲まれていると、とても癒されますよね！</p>
 
 <p>
 動物や植物の生命力は私たちに驚きを与えてくれます。
@@ -30,7 +21,7 @@
 
       <li class="sports_background">
         <%= link_to hobby_pages_aquarium_visiting_path  do %>
-        <%= image_tag "aquarium_visiting1.jpg", size: "219x185" %>
+        <%= image_tag "aquarium_visiting1.jpg", :class => "picture_size" %>
       <p class="titl">
         水族館めぐり
       </p>

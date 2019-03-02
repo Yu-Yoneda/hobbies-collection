@@ -1,35 +1,22 @@
 <% provide(:title, "アウトドアの趣味一覧") %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
-
+    <div class="col-md-7 col-xs-12 col-sm-12">
 <div class="panel panel-default">
-  <div class="panel-body">
-
 <h3>アウトドアの趣味一覧</h3>
-
 </div>
-</div>
-
 <div class="panel panel-default">
   <div class="panel-body">
+<p>緑の自然に囲まれていると、さっぱりとした気持ちになりますよね。</p>
+<p>魚釣りやキャンプなどアウトドアには様々な楽しみ方があります。</p>
+<p>そんな多種多様な楽しみ方があるアウトドアの趣味一覧です。</p>
+</div>
 
-<p>
-  緑の自然に囲まれていると、さっぱりとした気持ちになりますよね。
-</p>
-
-<p>
-  魚釣りやキャンプなどアウトドアには様々な楽しみ方があります。
-</p>
-
-<p>
-  そんな多種多様な楽しみ方があるアウトドアの趣味一覧です。
-</p>
 
     <ul class="nav navbar-nav">
       <li class="sports_background">
         <%= link_to hobby_pages_sea_fishing_path  do %>
-        <%= image_tag "sea_fishing1.jpg", size: "219x185" %>
+        <%= image_tag "sea_fishing1.jpg", :class => "picture_size" %>
       <p class="titl">
         海釣り
       </p>
@@ -41,7 +28,7 @@
 
       <li class="sports_background">
         <%= link_to hobby_pages_astronomy_path  do %>
-        <%= image_tag "astronomy2.jpg", size: "219x185" %>
+        <%= image_tag "astronomy2.jpg", :class => "picture_size" %>
       <p class="titl">
         天体観測
       </p>
@@ -53,7 +40,7 @@
 
       <li class="sports_background">
         <%= link_to hobby_pages_road_bike_path  do %>
-        <%= image_tag "road_bike1.jpg", size: "219x185" %>
+        <%= image_tag "road_bike1.jpg", :class => "picture_size" %>
       <p class="titl">
         ロードバイク
       </p>
@@ -65,7 +52,7 @@
 
       <li class="sports_background">
         <%= link_to hobby_pages_beach_combing_path  do %>
-        <%= image_tag "beach_combing2.jpg", size: "219x185" %>
+        <%= image_tag "beach_combing2.jpg", :class => "picture_size" %>
       <p class="titl">
         ビーチコーミング
       </p>
@@ -77,8 +64,4 @@
 
     </ul>
 
-</div>
-</div>
-</div>
-</div>
 </div>

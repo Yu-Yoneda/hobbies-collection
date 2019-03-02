@@ -1,50 +1,36 @@
 <% provide(:title, "天体観測") %>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-7 col-xs-12 col-sm-12">
 
   <div class="panel panel-default">
       <div class="panel panel-default panel-info">
         <div class="panel-heading">
-
   <h1>天体観測</h1>
-
 </div>
 </div>
 
 <div class="panel panel-default">
-  <div class="panel-body">
-
-    <h3>興味タイプ</h3>
-    <h3>IAR</h3>
-
-  </div>
+    <h3>興味タイプ：IAR</h3>
   </div>
 
   <%= image_tag("astronomy2.jpg", :class => "img-responsive img-thumbnail") %>
 
   <div class="pic_bottom">
-    <div class="panel panel-default">
-      <div class="panel-body">
-
-  <h3>
-    天体観測とは？
-  </h3>
-
+    <div class="panel panel-default panel-info">
+      <div class="panel-heading">
+  <h3>天体観測とは？</h3>
 </div>
 </div>
 </div>
-
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
 <h2>
   星々からの神秘
 </h2>
+</div>
 
-</div>
-</div>
+<%= image_tag("astronomy4.jpg", :class => "img-responsive img-thumbnail") %>
 
 <p>
   雲一つない晴れた日の夜の道。ふと頭上を見てみると、きらきらと輝くたくさんの星々に驚くことでしょう。
@@ -67,28 +53,19 @@
   そう考えると、神秘的な感じがしませんか？
 </p>
 
-<div class="panel panel-default">
-  <div class="panel-body">
-
-<h3>
-  天体観測の良いところ
-</h3>
-
+<div class="panel panel-default panel-info">
+  <div class="panel-heading">
+<h3>天体観測の良いところ</h3>
 </div>
 </div>
-
 
 <div class="panel panel-default">
-  <div class="panel-body">
-
-    <h2>
-      四季によって変化する夜の星空
-    </h2>
-
-</div>
+    <h2>四季によって変化する夜の星空</h2>
 </div>
 
-
+<div class="youtube_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cmRLU2Cu9K8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <p>
   天体観測の面白いところの一つに、四季に応じて見える星が変わっていくところがあります。
 </p>
@@ -110,47 +87,30 @@
   </p>
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
 <h2>
   星空を眺めてリフレッシュ
 </h2>
-
-</div>
 </div>
 
-
-<p>
-</p>
+<%= image_tag("astronomy5.jpg", :class => "img-responsive img-thumbnail") %>
 
 <p>
   新鮮な空気を感じながら、夜空を輝く星々を見ていると、日常をストレスやイライラが少しずつなくなっていきます。宇宙の大きさや星々の神秘に触れることで、自分の存在を見つめなおすきっかけになったり、日常と異なる世界に触れることで、ストレス解消になるのでしょう。
 </p>
 
-<div class="panel panel-default">
-  <div class="panel-body">
-
+<div class="panel panel-default panel-info">
+  <div class="panel-heading">
     <h3>
       天体観測の始め方
     </h3>
-
 </div>
 </div>
-
-
-  <%= image_tag("astronomy1.jpg", :class => "img-responsive img-thumbnail") %>
-
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
-      <h2>
-        星がよく見えるところに行こう
-      </h2>
-
-</div>
+      <h2>星がよく見えるところに行こう</h2>
 </div>
 
+<%= image_tag("astronomy1.jpg", :class => "img-responsive img-thumbnail") %>
 
   <p>
     街中で街の明かりが明るすぎて、きれいな星空は見ることはできません。
@@ -169,13 +129,13 @@
   </p>
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
       <h2>
         プラネタリウムの活用
       </h2>
-
 </div>
+
+<div class="youtube_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SVtw5VzDh9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
   <p>
@@ -187,16 +147,14 @@
   </p>
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
       <h2>
         天体望遠鏡から見る夜空
       </h2>
-
-</div>
 </div>
 
-
+<div class="youtube_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2lpBUuzHAxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
   <p>
     天体望遠鏡のような天体観測の道具があれば自宅のベランダからも星空を観察をすることができます。晴れた日の夜であれば、 月のクレーターも見ることができます。
@@ -207,13 +165,13 @@
   </p>
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
       <h2>
         世界で一つのあなたの夜空
       </h2>
-
 </div>
+
+<div class="youtube_container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oZBbGcnMZgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
   <p>
@@ -225,32 +183,24 @@
   </p>
 
   <div class="panel panel-default">
-    <div class="panel-body">
-
       <h2>
         天体観測の本は？
       </h2>
-
-</div>
 </div>
 
-
+<%= image_tag("astronomy6.jpg", :class => "img-responsive img-thumbnail") %>
 
   <p>
     天体観測について詳しく書かれている本は、子供向けから大人向けまで幅広く出版されています。 内容も読みやすく、そしてわかりやすいものになっているので、お近くの図書館や書店に立ち寄ってみるとよいでしょう。
   </p>
 
-  <div class="panel panel-default">
-    <div class="panel-body">
-
+  <div class="panel panel-default panel-info">
+    <div class="panel-heading">
       <h3>
         まとめ
       </h3>
-
 </div>
 </div>
-
-
 
   <%= image_tag("astronomy3.jpg", :class => "img-responsive img-thumbnail") %>
 
