@@ -1,5 +1,23 @@
 Rails.application.routes.draw do
 
+  get 'layouts/_pickup_page'
+
+  get 'layouts/pickup_page'
+
+  get 'pick_ups/indoor'
+
+  get 'pick_up/indoor'
+
+  get 'hobby_pages/mahjong'
+
+  get 'hobby_pages/sudoku'
+
+  get 'hobby_pages/chess'
+
+  get 'hobby_pages/shogi'
+
+  get 'hobby_pages/go'
+
   get 'hobby_pages/jigsaw_puzzle'
 
   get 'hobby_pages/beach_combing'

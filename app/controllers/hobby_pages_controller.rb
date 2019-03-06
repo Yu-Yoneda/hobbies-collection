@@ -1,4 +1,13 @@
 class HobbyPagesController < ApplicationController
-  def jigsaw_puzzle
+  def mahjong
+  end
+
+  def sudoku
+  end
+
+  def chess
+  end
+
+  def shogi
   end
 end

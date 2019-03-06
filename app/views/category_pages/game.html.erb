@@ -1,7 +1,7 @@
 <% provide(:title, 'ゲームの趣味一覧') %>
 <div class="container">
   <div class="row">
-    <div class="col-md-7 col-xs-12 col-sm-12">
+    <div class="col-md-12 col-xs-12 col-sm-12">
 <div class="panel panel-default">
 <h3>ゲームの趣味一覧</h3>
 </div>
@@ -27,6 +27,54 @@
 
     <ul class="nav navbar-nav">
 
+      <li class="sports_background">
+        <%= link_to hobby_pages_mahjong_path  do %>
+        <%= image_tag "mahjong2.jpg", :class => "picture_size"  %>
+      <p class="titl">
+        麻雀
+      </p>
+      <p class="titl">
+        IE
+      </p>
+      </li>
+<% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_chess_path  do %>
+        <%= image_tag "chess1.jpg", :class => "picture_size"  %>
+      <p class="titl">
+        チェス
+      </p>
+      <p class="titl">
+        I
+      </p>
+      </li>
+<% end %>
+
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_go_path  do %>
+        <%= image_tag "go1.jpg", :class => "picture_size"  %>
+      <p class="titl">
+        囲碁
+      </p>
+      <p class="titl">
+        I
+      </p>
+      </li>
+<% end %>
+
+      <li class="sports_background">
+        <%= link_to hobby_pages_jigsaw_puzzle_path  do %>
+        <%= image_tag "jigsaw_puzzle1.jpg", :class => "picture_size"  %>
+      <p class="titl">
+        ジグソーパズル
+      </p>
+      <p class="titl">
+        IA
+      </p>
+      </li>
+<% end %>
 
       <li class="sports_background">
         <%= link_to hobby_pages_othello_path  do %>
