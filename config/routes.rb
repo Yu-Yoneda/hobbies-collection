@@ -1,5 +1,37 @@
 Rails.application.routes.draw do
 
+  get 'hobby_pages/handmade'
+
+  get 'hobby_pages/crowdsourcing'
+
+  get 'hobby_pages/horseracing'
+
+  get 'hobby_pages/stock_investment'
+
+  get 'hobby_pages/online_shop'
+
+  get 'hobby_pages/lottery'
+
+  get 'hobby_pages/fx_investment'
+
+  get 'hobby_pages/bicycle_race'
+
+  get 'hobby_pages/prize_contest'
+
+  get 'hobby_pages/point_site'
+
+  get 'hobby_pages/flea_market'
+
+  get 'hobby_pages/real_estate_investment'
+
+  get 'hobby_pages/werewolf'
+
+  get 'hobby_pages/backgammon'
+
+  get 'hobby_pages/reversi'
+
+  get 'hobby_pages/number_place'
+
   get 'layouts/_pickup_page'
 
   get 'layouts/pickup_page'
