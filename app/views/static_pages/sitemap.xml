@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/list</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/description</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/personality_type</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/check</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/sports</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/outdoor</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/art</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/collection</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/craft</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/food</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/game</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/growing</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/lifestyle</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/money</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/music</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/study</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/travel</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/category_pages/others</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/about</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/contact</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RIA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RIS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RIE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RIC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RAI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RAS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RAE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RAC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RSI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RSA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RSE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RSC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/REI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/REA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/RES</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/REC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IRA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IRS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IRE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IRC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IAR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IAS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IAE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IAC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ISR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ISA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ISE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ISC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IER</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IEA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IES</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/IEC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ICR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ICA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ICS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ICE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ARI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ARS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ARE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ARC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AIR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AIS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AIE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AIC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ASR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ASI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ASE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ASC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AER</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AEI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AES</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/AEC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ACR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ACI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ACS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ACE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SRI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SRA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SRE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SRC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SIR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SIA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SIE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SIC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SAR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SAI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SAE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SAC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SER</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SEI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SEA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SEC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SCR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SCI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SCA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/SCE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ERI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ERA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ERS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ERC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EIR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EIA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EIS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EIC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EAR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EAI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EAS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/EAC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ESR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ESI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ESA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ESC</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ECR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ECI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ECA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/ECS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CRI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CRA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CRS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CRE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CIR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CIA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CIS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CIE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CAR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CAI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CAS</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CAE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CSR</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CSI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CSA</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CSE</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CER</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CEI</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/riasec_pages/CES</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/road_bike</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/archery</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/sea_fishing</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/astronomy</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/beach_combing</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/drawing</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/writing</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/game_production</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/stamp_collecting</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/jam_making</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/werewolf</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/backgammon</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/number_place</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/shogi</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/mahjong</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/chess</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/go</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/jigsaw_puzzle</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/reversi</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/aquarium_visiting</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/meditation</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/bicycle_race</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/blog</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/classical_misic_concert</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/blood_donation</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/othello</loc>
+  <priority>0.6</priority>
+</url>
+
+</urlset>
