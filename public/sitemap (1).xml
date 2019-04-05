@@ -777,12 +777,22 @@
   <mobile:mobile />
 </url>
 <url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/horseracing</loc>
+  <priority>0.7</priority>
+  <mobile:mobile />
+</url>
+<url>
   <loc>https://hobbies-collection.herokuapp.com/hobby_pages/aquarium_visiting</loc>
   <priority>0.7</priority>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://hobbies-collection.herokuapp.com/hobby_pages/meditation</loc>
+  <priority>0.7</priority>
+  <mobile:mobile />
+</url>
+<url>
+  <loc>https://hobbies-collection.herokuapp.com/hobby_pages/crowdsourcing</loc>
   <priority>0.7</priority>
   <mobile:mobile />
 </url>

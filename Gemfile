@@ -11,6 +11,10 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 gem 'google-analytics-rails'
 
+# SEO
+gem 'meta-tags', :require => 'meta_tags'
+gem 'sitemap_generator'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
