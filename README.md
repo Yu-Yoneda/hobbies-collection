@@ -1,24 +1,59 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Over views
 
-Things you may want to cover:
+This app is useful to find your best hobbies. 
+You answer 36 questions and app show your personality and best hobbies.
 
-* Ruby version
+# Dependency
+We use this language and libs.
 
-* System dependencies
+vagrant
+centos
+Cyberduck
+PuTTY
 
-* Configuration
+gem 'rails',        '5.1.6'
+gem 'bootstrap-sass', '3.3.7'
+gem 'puma',         '3.9.1'
+gem 'sass-rails',   '5.0.6'
+gem 'uglifier',     '3.2.0'
+gem 'coffee-rails', '4.2.2'
+gem 'jquery-rails', '4.3.1'
+gem 'turbolinks',   '5.0.1'
+gem 'jbuilder',     '2.7.0'
+gem 'google-analytics-rails'
 
-* Database creation
+# SEO
+gem 'meta-tags', :require => 'meta_tags'
+gem 'sitemap_generator'
 
-* Database initialization
+group :development, :test do
+  gem 'sqlite3', '1.3.13'
+  gem 'byebug',  '9.0.6', platform: :mri
+end
 
-* How to run the test suite
+group :development do
+  gem 'web-console',           '3.5.1'
+  gem 'listen',                '3.1.5'
+  gem 'spring',                '2.0.2'
+  gem 'spring-watcher-listen', '2.0.1'
+end
 
-* Services (job queues, cache servers, search engines, etc.)
+group :test do
+  gem 'rails-controller-testing', '1.0.2'
+  gem 'minitest',                 '5.10.3'
+  gem 'minitest-reporters',       '1.1.14'
+  gem 'guard',                    '2.13.0'
+  gem 'guard-minitest',           '2.4.4'
+end
 
-* Deployment instructions
+group :production do
+  gem 'pg', '0.20.0'
+end
 
-* ...
+# we need to include gem of tzinfo-data in windows environments
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Author
+yoneyu
