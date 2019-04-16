@@ -4,6 +4,7 @@
 
 This app is useful to find your best hobbies. 
 You answer 36 questions and app show your personality and best hobbies.
+other people find other people's hobbies and personality.
 
 # Dependency
 We use this language and libs.
