@@ -8,8 +8,8 @@ You answer 36 questions and app show your personality and best hobbies.
 # Dependency
 We use this language and libs.
 
-vagrant
-centos
+Vagrant
+CentOS
 Cyberduck
 PuTTY
 
