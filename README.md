@@ -25,6 +25,7 @@ gem 'jbuilder',     '2.7.0'
 gem 'google-analytics-rails'
 
 #seo
+
 gem 'meta-tags', :require => 'meta_tags'
 gem 'sitemap_generator'
 
@@ -53,6 +54,7 @@ group :production do
 end
 
 #we need to include gem of tzinfo-data in windows environments
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Author
