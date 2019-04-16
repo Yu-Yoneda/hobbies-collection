@@ -24,7 +24,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 gem 'google-analytics-rails'
 
-# SEO
+#seo
 gem 'meta-tags', :require => 'meta_tags'
 gem 'sitemap_generator'
 
@@ -52,7 +52,7 @@ group :production do
   gem 'pg', '0.20.0'
 end
 
-# we need to include gem of tzinfo-data in windows environments
+#we need to include gem of tzinfo-data in windows environments
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Author
