@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'posts/show'
+
+
+
   get 'hobby_pages/handmade'
 
   get 'hobby_pages/crowdsourcing'
@@ -352,7 +356,6 @@ Rails.application.routes.draw do
 
   get 'riasec_pages/CES'
 
-
   root 'static_pages#home'
 
   get  '/about',   to: 'static_pages#about'
@@ -367,8 +370,12 @@ Rails.application.routes.draw do
 
   get "/check", to: 'users#new'
 
+  post '/signup',  to: 'posts#create'
+  get  '/signup',  to: 'posts#new'
+
   resources :users
   resources :riasec_pages
   resources :hobby_pages
+  resources :posts
 
 end
